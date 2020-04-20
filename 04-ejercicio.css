@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.contenedor {
+    width: 500px;
+    height: 500px;
+    background-color:#E8E7E7;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.imagen-wrapper {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+.circulo {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.parrafo-1{
+    position: absolute;
+    margin-top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'PT Sans Caption',sans-serif;
+    font-size: 20px;
+    color: #709DCE;
+
+}
+.parrafo-2{
+    position: absolute;
+    margin-top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Fahkwang',sans-serif;
+    font-size: 10px;
+    color: #7D8492;
+}
+.sub-contenedor{
+    background-color: #ffffff;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: 70%;
+    left: 0;
+}
+.figura-1{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 24%;
+}
+.figura-2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 37%;
+}
+.figura-3{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 37%;
+}
+.figura-4{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 24%;
+}
+
+
